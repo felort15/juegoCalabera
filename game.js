@@ -155,14 +155,12 @@ function moveDown(){
 
   }
 }
-// Selecciona el botón de reinicio
-const resetButton = document.querySelector('.reset_bottom');
 
-// Agrega un evento de clic al botón de reinicio
+const resetButton = document.querySelector('button.reset_bottom');
 resetButton.addEventListener('click', resetGame);
 
-// Función que se ejecuta al hacer clic en el botón de reinicio
 function resetGame() {
-  location.reload();
-}
+  // Aquí puedes agregar el código para reiniciar el juego
+  // Por ejemplo, puedes resetear las variables, limpiar el canvas, etc.
   console.log('Juego reiniciado');
+}
