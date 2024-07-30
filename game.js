@@ -160,7 +160,6 @@ const resetButton = document.querySelector('button.reset_bottom');
 resetButton.addEventListener('click', resetGame);
 
 function resetGame() {
-  // Aquí puedes agregar el código para reiniciar el juego
-  // Por ejemplo, puedes resetear las variables, limpiar el canvas, etc.
+  location.reload();
   console.log('Juego reiniciado');
 }
