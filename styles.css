@@ -38,6 +38,7 @@ body {
     padding: 5px 20px;
     width: 100px;
   }
+ 
   button:not(:last-child) {
     margin-right: 10px;
   }
@@ -55,6 +56,13 @@ body {
     margin: 0;
     width: 100%;
   }
+  .reset_bottom {
+    display: flex;
+    justify-content: center;
+    width:100 ;
+    display: block; /* Cambia a block para que se centre correctamente */
+  }
+
   
   @media (max-width: 440px) {
     button { margin-top: 25px; }
