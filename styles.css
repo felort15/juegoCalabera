@@ -51,6 +51,24 @@ body {
     max-width: 460px;
   }
   
+  .messages div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .start_button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+
+  .start_button:hover {
+    background-color: #45a049;
+  }
+  
   p {
     display: block;
     margin: 0;
